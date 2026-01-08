@@ -57,4 +57,8 @@ public class InventoryService {
         }
         return null;
     }
+
+    public List<Product> getAllProducts() {
+    return products;
+}
 }
